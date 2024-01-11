@@ -1,0 +1,202 @@
+*{
+ margin:0;
+ padding:0;
+ font-family: 'Poppins', sans-serif;
+
+}
+.toppage
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(gympics/gym8.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}nav{
+display: flex;
+padding: 2% 6%;
+justify-content:  space-between;
+align-items:start;
+}
+nav img
+{
+    width: 250px;               
+}
+.nav-link{
+    flex: 5;
+    text-align: right;
+}
+.nav-link ul   {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+.nav-link li{
+    float: right;
+}
+.nav-link li a
+{
+    display: block;
+    text-align: center;
+    padding: 30px;
+
+}
+.nav-link ul li a {
+
+    color: azure;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "verdana",sans-serif;
+}
+
+.nav-link ul li ::after{
+content: '';
+width : 0%;
+height: 2px;
+background : white;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+.nav-link ul li :hover::after{
+
+    width: 100%;
+}
+.text-box
+{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-size: 65px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 16px;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.text-box a{
+    color: azure;
+    width: 30%;
+    height: 20px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 10px;
+    transition: .5s;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+}
+.text-box a:hover{
+    background: #fff;
+    color: black;
+}
+.text-box a ::after{
+    content: '';
+    width: 0;
+    height: 2px;
+        background: grey;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+.text-box a :hover ::after{
+    width: 100%;
+    
+}
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 20px;
+}
+.row{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.content p{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.content h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+}
+.content:hover{
+ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.effect{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.img-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.img-col img{
+ width: 100%;
+}
+.img-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+}.img-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+   }

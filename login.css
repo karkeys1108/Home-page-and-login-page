@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*focus{
+    outline: none;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background: url('gympics/gym\ 11.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto',sans-serif;
+}
+.form{
+    width: 400px;
+    height: auto ;
+    color: azure;
+    font-family: 'roboto',sans-serif;
+}
+.heading{
+    
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 50px;
+
+}
+input
+{
+
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 15px;
+    transition: .5s;
+    text-transform: capitalize;
+}
+input ::placeholder
+{
+    color: azure;
+}
+input:focus
+{
+    background: azure;
+    color: #000;
+}
+input:focus::placeholder
+ {
+    color: #000;
+}
+.submit-btn{
+    
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 50px auto 0;
+} 
+
+.submit-btn:hover
+{
+    background: azure;
+    color: #000;
+}
+.link{
+    
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgba(255, 255, 255,0.5);
+    display: block;
+    margin: 30px auto;
+}
+.link:hover{
+    color: azure;
+}
+.alert-box{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    min-width: 150px;
+    max-width: 98%;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    background: grey ;
+    border-top: 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: azure;
+    font-family: 'roboto',sans-serif;
+    text-align: center;
+    transition: 1s;
+
+}
+.submit-btn{
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 15px;
+    transition: .5s;
+    text-transform: capitalize;
+    transition-duration: 0.5s;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+}
